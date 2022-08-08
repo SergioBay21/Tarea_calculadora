@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="227" max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace pref="44" max="32767" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="482" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="413" max="-2" attributes="0"/>
+              <EmptySpace pref="73" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Manual de Usuario"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea1">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="Esta calculadora tiene como objetivo proveer al usuario de una experiencia unica en&#xa;su uso. Es por ello que a continuaci&#xf3;n se muestra como usar la calculadora. &#x9;&#xa;&#x9;1. La calculadora permite realizar cuatro operaciones. &#xa;&#x9;    - Suma&#xa;&#x9;    - Resta &#xa;&#x9;    - Multiplicaci&#xf3;n&#xa;&#x9;    - Divisi&#xf3;n&#xa;Para ello encontraremos los simbolos de cada operaci&#xf3;n en nuestro teclado en la&#xa;interfaz, al mismo tiempo se pueden utilizar las teclas de nuestro teclado. Tanto en&#xa;los n&#xfa;meros, como en las operaciones. Para realizar una operaci&#xf3;n, al principio&#xa;debemos poner el primer n&#xfa;emero, seguido del operador, y luego el segundo &#xa;numero.&#xa;&#xa;Es de vital importancia saber las opciones que ofrece esta calculadora. &#xa;- En el men&#xfa; superior encontraremos los campos: &#xa;&#x9;Opciones: Dentro de ella encontraremos la opci&#xf3;n de &quot;Nuevo&quot;, esta &#xa;&#x9;limpiara la calculadora y empezar&#xe1; una nueva secuencia de &#xa;&#x9;operaciones. Y la opci&#xf3;n de historial, en donde encontraremos una &#xa;&#x9;visi&#xf3;n cronologica de las operaciones realizadas. &#xa;&#x9;Ayuda: En esta secci&#xf3;n se encontrar&#xe1; el Manual de usuario. &#xa;- Cuenta con un archivo de texto donde se registran todas las operaciones realizadas. "/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
